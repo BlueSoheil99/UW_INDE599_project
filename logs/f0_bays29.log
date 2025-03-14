@@ -1,0 +1,69 @@
+
+Gurobi 12.0.1 (win64) logging started Mon Mar 10 16:26:52 2025
+
+Set parameter LogFile to value "logs/f0_bays29.log"
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 12th Gen Intel(R) Core(TM) i7-12700, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 87 rows, 841 columns and 1711 nonzeros
+Model fingerprint: 0x4cfafabf
+Variable types: 0 continuous, 841 integer (841 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+01, 5e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 6280.0000000
+Presolve removed 29 rows and 29 columns
+Presolve time: 0.00s
+Presolved: 58 rows, 812 columns, 1624 nonzeros
+Variable types: 0 continuous, 812 integer (812 binary)
+
+Root relaxation: objective 1.764000e+03, 49 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1764.0000000 1764.00000  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 2: 1764 6280 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.764000000000e+03, best bound 1.764000000000e+03, gap 0.0000%
+
+ 	 Optimal Solution:
+	x[0,27]: 1.0 
+	x[1,20]: 1.0 
+	x[2,25]: 1.0 
+	x[3,14]: 1.0 
+	x[4,8]: 1.0 
+	x[5,11]: 1.0 
+	x[6,24]: 1.0 
+	x[7,23]: 1.0 
+	x[8,4]: 1.0 
+	x[9,19]: 1.0 
+	x[10,18]: 1.0 
+	x[11,5]: 1.0 
+	x[12,15]: 1.0 
+	x[13,21]: 1.0 
+	x[14,3]: 1.0 
+	x[15,12]: 1.0 
+	x[16,17]: 1.0 
+	x[17,16]: 1.0 
+	x[18,10]: 1.0 
+	x[19,9]: 1.0 
+	x[20,1]: 1.0 
+	x[21,13]: 1.0 
+	x[22,26]: 1.0 
+	x[23,7]: 1.0 
+	x[24,6]: 1.0 
+	x[25,28]: 1.0 
+	x[26,22]: 1.0 
+	x[27,0]: 1.0 
+	x[28,2]: 1.0 
+	objective value: 1764.0

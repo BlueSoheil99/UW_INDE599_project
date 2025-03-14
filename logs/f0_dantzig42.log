@@ -1,0 +1,82 @@
+
+Gurobi 12.0.1 (win64) logging started Mon Mar 10 16:26:52 2025
+
+Set parameter LogFile to value "logs/f0_dantzig42.log"
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 12th Gen Intel(R) Core(TM) i7-12700, instruction set [SSE2|AVX|AVX2]
+Thread count: 12 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 126 rows, 1764 columns and 3570 nonzeros
+Model fingerprint: 0xc24e12d8
+Variable types: 0 continuous, 1764 integer (1764 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 3162.0000000
+Presolve removed 42 rows and 42 columns
+Presolve time: 0.00s
+Presolved: 84 rows, 1722 columns, 3444 nonzeros
+Variable types: 0 continuous, 1722 integer (1722 binary)
+
+Root relaxation: objective 5.320000e+02, 63 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     532.0000000  532.00000  0.00%     -    0s
+
+Explored 1 nodes (63 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 2: 532 3162 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.320000000000e+02, best bound 5.320000000000e+02, gap 0.0000%
+
+ 	 Optimal Solution:
+	x[0,1]: 1.0 
+	x[1,0]: 1.0 
+	x[2,3]: 1.0 
+	x[3,2]: 1.0 
+	x[4,37]: 1.0 
+	x[5,6]: 1.0 
+	x[6,5]: 1.0 
+	x[7,8]: 1.0 
+	x[8,7]: 1.0 
+	x[9,24]: 1.0 
+	x[10,11]: 1.0 
+	x[11,10]: 1.0 
+	x[12,15]: 1.0 
+	x[13,14]: 1.0 
+	x[14,13]: 1.0 
+	x[15,16]: 1.0 
+	x[16,12]: 1.0 
+	x[17,18]: 1.0 
+	x[18,17]: 1.0 
+	x[19,20]: 1.0 
+	x[20,19]: 1.0 
+	x[21,22]: 1.0 
+	x[22,21]: 1.0 
+	x[23,9]: 1.0 
+	x[24,23]: 1.0 
+	x[25,26]: 1.0 
+	x[26,25]: 1.0 
+	x[27,28]: 1.0 
+	x[28,27]: 1.0 
+	x[29,30]: 1.0 
+	x[30,29]: 1.0 
+	x[31,32]: 1.0 
+	x[32,31]: 1.0 
+	x[33,34]: 1.0 
+	x[34,33]: 1.0 
+	x[35,36]: 1.0 
+	x[36,35]: 1.0 
+	x[37,4]: 1.0 
+	x[38,39]: 1.0 
+	x[39,38]: 1.0 
+	x[40,41]: 1.0 
+	x[41,40]: 1.0 
+	objective value: 532.0
