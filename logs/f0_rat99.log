@@ -1,8 +1,8 @@
 
-Gurobi 12.0.1 (win64) logging started Mon Mar 10 16:26:53 2025
+Gurobi 11.0.3 (win64) logging started Fri Mar 14 15:35:26 2025
 
 Set parameter LogFile to value "logs/f0_rat99.log"
-Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11.0 (26100.2))
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11+.0 (26100.2))
 
 CPU model: 12th Gen Intel(R) Core(TM) i7-12700, instruction set [SSE2|AVX|AVX2]
 Thread count: 12 physical cores, 20 logical processors, using up to 20 threads
@@ -17,7 +17,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+00]
 Found heuristic solution: objective 8467.0000000
 Presolve removed 99 rows and 99 columns
-Presolve time: 0.01s
+Presolve time: 0.02s
 Presolved: 198 rows, 9702 columns, 19404 nonzeros
 Variable types: 0 continuous, 9702 integer (9702 binary)
 

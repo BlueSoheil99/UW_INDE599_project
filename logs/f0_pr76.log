@@ -1,8 +1,8 @@
 
-Gurobi 12.0.1 (win64) logging started Mon Mar 10 16:26:52 2025
+Gurobi 11.0.3 (win64) logging started Fri Mar 14 15:35:26 2025
 
 Set parameter LogFile to value "logs/f0_pr76.log"
-Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11.0 (26100.2))
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11+.0 (26100.2))
 
 CPU model: 12th Gen Intel(R) Core(TM) i7-12700, instruction set [SSE2|AVX|AVX2]
 Thread count: 12 physical cores, 20 logical processors, using up to 20 threads

@@ -1,8 +1,8 @@
 
-Gurobi 12.0.1 (win64) logging started Mon Mar 10 16:26:52 2025
+Gurobi 11.0.3 (win64) logging started Fri Mar 14 15:35:26 2025
 
 Set parameter LogFile to value "logs/f0_bays29.log"
-Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11.0 (26100.2))
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11+.0 (26100.2))
 
 CPU model: 12th Gen Intel(R) Core(TM) i7-12700, instruction set [SSE2|AVX|AVX2]
 Thread count: 12 physical cores, 20 logical processors, using up to 20 threads
@@ -28,7 +28,7 @@ Root relaxation: objective 1.764000e+03, 49 iterations, 0.00 seconds (0.00 work 
 
 *    0     0               0    1764.0000000 1764.00000  0.00%     -    0s
 
-Explored 1 nodes (49 simplex iterations) in 0.01 seconds (0.01 work units)
+Explored 1 nodes (49 simplex iterations) in 0.02 seconds (0.01 work units)
 Thread count was 20 (of 20 available processors)
 
 Solution count 2: 1764 6280 
